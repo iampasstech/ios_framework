@@ -1,0 +1,355 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target x86_64-apple-ios13.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IAMPASSiOS
+import AVFoundation
+import AVKit
+import CommonCrypto
+import CoreBluetooth
+import Foundation
+@_exported import IAMPASSiOS
+import LocalAuthentication
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import os.log
+import os
+@objc public protocol IPAuthenticationDelegate {
+  @objc func didAuthenticate()
+  @objc func didFailToAuthenticate(error: Swift.Error?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class IPAuthenticationViewController : UIKit.UIViewController, IAMPASSiOS.IPAcceptanceViewControllerDelegate, IAMPASSiOS.IPOSViewControllerDelegate, IAMPASSiOS.IPFacialViewControllerDelegate, IAMPASSiOS.IPProximityViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) public var authenticationRequest: IAMPASSiOS.IPAuthenticationRequest?
+  @_Concurrency.MainActor(unsafe) public var mobileDevice: IAMPASSiOS.IPMobileDevice?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var authenticationDelegate: IAMPASSiOS.IPAuthenticationDelegate?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var acceptanceBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var acceptanceNibName: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var osBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var osNibName: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var facialBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var facialNibName: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var proximityBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var proximityNibName: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var statusBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var statusNibName: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var authenticatingBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var authenticatingNibName: Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func didAuthenticate()
+  @_Concurrency.MainActor(unsafe) open func didFailToAuthenticate()
+  @_Concurrency.MainActor(unsafe) @objc public func didAcceptRequest()
+  @_Concurrency.MainActor(unsafe) @objc public func didRejectRequest()
+  @_Concurrency.MainActor(unsafe) public func didFinishAuthentication(result: IAMPASSiOS.OS_Auth_Result)
+  @_Concurrency.MainActor(unsafe) @objc public func didDetectFaces(faces: [Swift.String])
+  @_Concurrency.MainActor(unsafe) @objc public func didCancelFaceDetection()
+  @_Concurrency.MainActor(unsafe) @objc public func didFailDetectFaces(error: Swift.Error?)
+  @_Concurrency.MainActor(unsafe) @objc public func didDetectProximity(code: Swift.String, rssi: Swift.Int, desktop: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc public func didCancelProximityDetection()
+  @_Concurrency.MainActor(unsafe) @objc public func didFailDetectProximity(error: Swift.Error?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc public protocol IPFacialViewControllerDelegate {
+  @objc func didDetectFaces(faces: [Swift.String])
+  @objc func didCancelFaceDetection()
+  @objc func didFailDetectFaces(error: Swift.Error?)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class IPFacialViewController : IAMPASSiOS.IPCaptureFaceViewController {
+  @_Concurrency.MainActor(unsafe) public var facialDelegate: IAMPASSiOS.IPFacialViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var numFaces: Swift.UInt
+  @_Concurrency.MainActor(unsafe) public init?(delegate: IAMPASSiOS.IPFacialViewControllerDelegate, bundleIdentifier: Swift.String?, nibName: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func onCancel(_ sender: Any)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
+  @_Concurrency.MainActor(unsafe) public func didCaptureFace(face: CoreGraphics.CGImage)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@objc public protocol IPTrainingDelegate {
+  @objc func didCompleteTraining(identifier: Any?, device: IAMPASSiOS.IPMobileDevice)
+  @objc func didFailToCompleteTraining(identifier: Any?, device: IAMPASSiOS.IPMobileDevice, error: Swift.Error?)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class IPTrainingViewController : UIKit.UIViewController {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var facialBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var facialNibName: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var instructionsBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var instructionsNibName: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var statusBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var statusNibName: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var busyBundleIdentifier: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var busyNibName: Swift.String?
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var trainingDelegate: IAMPASSiOS.IPTrainingDelegate?
+  @_Concurrency.MainActor(unsafe) public var device: IAMPASSiOS.IPMobileDevice?
+  @_Concurrency.MainActor(unsafe) public var identifier: Any?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) open func trainingComplete()
+  @_Concurrency.MainActor(unsafe) open func trainingFailed()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension IAMPASSiOS.IPTrainingViewController : IAMPASSiOS.IPFacialViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didDetectFaces(faces: [Swift.String])
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didCancelFaceDetection()
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func didFailDetectFaces(error: Swift.Error?)
+}
+extension IAMPASSiOS.IPTrainingViewController : IAMPASSiOS.IPTrainingRequiredViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) public func StartTraining()
+}
+public class IPAuthenticationRequest : Swift.Codable {
+  final public let user_id: Swift.Int
+  final public let application_name: Swift.String
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+open class IPSessionStatus : Swift.Decodable {
+  final public let userID: Swift.Int
+  final public let applicationID: Swift.String
+  final public let applicationName: Swift.String
+  final public let authRequestID: Swift.String
+  final public let status: IAMPASSiOS.SessionStatus
+  final public let durationSeconds: Swift.Double
+  public var duration: Swift.String {
+    get
+  }
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+}
+public protocol IPNotificationHandlerDelegate {
+  func presentAuthenticationUI(request: IAMPASSiOS.IPAuthenticationRequest, device: IAMPASSiOS.IPMobileDevice)
+  func sessionStatusChanged(status: IAMPASSiOS.IPSessionStatus)
+}
+public class IPNotificationHandler {
+  public struct NotificationHandlerResult {
+    public let suggestedCompletionResult: UIKit.UIBackgroundFetchResult
+    public let ipNotification: Swift.Bool
+  }
+  public init(delegate: IAMPASSiOS.IPNotificationHandlerDelegate?)
+  public func processNotification(userInfo: [Swift.AnyHashable : Any], registeredDevices: [IAMPASSiOS.IPMobileDevice]) -> IAMPASSiOS.IPNotificationHandler.NotificationHandlerResult
+  @objc deinit
+}
+public enum OS_Auth_Result {
+  case Success
+  case Failed
+  case Cancelled
+  case NotSupported
+  public static func == (a: IAMPASSiOS.OS_Auth_Result, b: IAMPASSiOS.OS_Auth_Result) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol IPOSViewControllerDelegate : AnyObject {
+  func didFinishAuthentication(result: IAMPASSiOS.OS_Auth_Result)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class IPOSViewController : UIKit.UIViewController {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var unlockMessage: Swift.String
+  @_Concurrency.MainActor(unsafe) public init?(delegate: IAMPASSiOS.IPOSViewControllerDelegate, bundleIdentifier: Swift.String?, nibName: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class IPCaptureFaceViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension IAMPASSiOS.IPCaptureFaceViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreGraphics.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
+}
+extension IAMPASSiOS.IPCaptureFaceViewController : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+public struct IAMPASSConfiguration {
+  public let server_url: Foundation.URL
+  public static let DEFAULT_IAMPASS_CONFIGURATION: IAMPASSiOS.IAMPASSConfiguration
+  public static let DEVELOPMENT_IAMPASS_CONFIGURATION: IAMPASSiOS.IAMPASSConfiguration
+  public init(server_url: Foundation.URL)
+}
+public class ManagementAPI {
+  public init(application_id: Swift.String, application_secret: Swift.String, iampass_configuration: IAMPASSiOS.IAMPASSConfiguration = IAMPASSConfiguration.DEFAULT_IAMPASS_CONFIGURATION)
+  public func create_user_and_register_device(user: Swift.String, notification_token: Swift.String, success: @escaping IAMPASSiOS.IPMobileDevice.device_success_proc, failure: @escaping IAMPASSiOS.IPMobileDevice.device_failure_proc)
+  public func add_users(users: [Swift.String], success: @escaping (_ added: [Swift.String], _ existing: [Swift.String]) -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
+  public func add_user(user: Swift.String, success: @escaping () -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
+  public func delete_users(users: [Swift.String], success: @escaping () -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
+  public func delete_user(user: Swift.String, success: @escaping () -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
+  public func get_registration_link(user_id: Swift.String, display_name: Swift.String?, success: @escaping (_ registration_link: Foundation.URL) -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
+  public func has_registered_mobile_device(user_id: Swift.String, success: @escaping (_ has_registered_device: Swift.Bool) -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
+  @objc deinit
+}
+public class IPActiveSession : Swift.Decodable {
+  final public let created: Foundation.Date
+  final public let status: IAMPASSiOS.SessionStatus
+  final public let id: Swift.String
+  public var device: IAMPASSiOS.IPMobileDevice?
+  required public init(from decoder: Swift.Decoder) throws
+  public func close(success: @escaping () -> Swift.Void, failure: @escaping (_ error: Swift.Error?) -> Swift.Void)
+  @objc deinit
+}
+@objc public protocol IPProximityViewControllerDelegate {
+  @objc func didDetectProximity(code: Swift.String, rssi: Swift.Int, desktop: Swift.String)
+  @objc func didCancelProximityDetection()
+  @objc func didFailDetectProximity(error: Swift.Error?)
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class IPProximityViewController : UIKit.UIViewController, IAMPASSiOS.ProximityDelegate {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) public var proximityDelegate: IAMPASSiOS.IPProximityViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var serviceID: Swift.String
+  @_Concurrency.MainActor(unsafe) public var characteristicID: Swift.String
+  @_Concurrency.MainActor(unsafe) public var timeoutSeconds: Swift.Int
+  @_Concurrency.MainActor(unsafe) public var powerThreshold: Swift.Int
+  @_Concurrency.MainActor(unsafe) public init?(delegate: IAMPASSiOS.IPProximityViewControllerDelegate, bundleIdentifier: Swift.String?, nibName: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func didDetectProximity(desktopDevice: Swift.String, proximityCode: Swift.String, rssi: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func didFailToDetectProximity(error: Swift.Error?)
+  @_Concurrency.MainActor(unsafe) public func deviceTooFarAway()
+  @objc deinit
+}
+@objc public protocol IPAcceptanceViewControllerDelegate {
+  @objc func didAcceptRequest()
+  @objc func didRejectRequest()
+}
+@objc @_Concurrency.MainActor(unsafe) open class IPAcceptanceViewController : UIKit.UIViewController {
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) public var acceptanceDelegate: IAMPASSiOS.IPAcceptanceViewControllerDelegate!
+  @_Concurrency.MainActor(unsafe) public init?(delegate: IAMPASSiOS.IPAcceptanceViewControllerDelegate, bundleIdentifier: Swift.String?, nibName: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var acceptButton: UIKit.UIButton!
+  @objc @IBOutlet @_Concurrency.MainActor(unsafe) weak public var rejectButton: UIKit.UIButton!
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @objc deinit
+}
+public protocol IPTrainingRequiredViewControllerDelegate {
+  func StartTraining()
+}
+@objc @_Concurrency.MainActor(unsafe) open class IPTrainingRequiredViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public init?(delegate: IAMPASSiOS.IPTrainingRequiredViewControllerDelegate, bundleIdentifier: Swift.String?, nibName: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @objc @IBAction @_Concurrency.MainActor(unsafe) public func onStart(_ sender: Any)
+  @objc deinit
+}
+public protocol ProximityDelegate {
+  func didDetectProximity(desktopDevice: Swift.String, proximityCode: Swift.String, rssi: Swift.Int)
+  func didFailToDetectProximity(error: Swift.Error?)
+  func deviceTooFarAway()
+}
+@objc public class ProximityDetector : ObjectiveC.NSObject, CoreBluetooth.CBPeripheralManagerDelegate {
+  public init(delegate: IAMPASSiOS.ProximityDelegate)
+  public func detectProximity(serviceID: Swift.String, characteristicID: Swift.String, timeoutSeconds: Swift.Int, powerThresholdDB: Swift.Int)
+  @objc public func peripheralManagerDidUpdateState(_ peripheral: CoreBluetooth.CBPeripheralManager)
+  @objc public func peripheralManager(_ peripheral: CoreBluetooth.CBPeripheralManager, didReceiveWrite requests: [CoreBluetooth.CBATTRequest])
+  @objc deinit
+}
+public enum IPError : Foundation.LocalizedError {
+  case Success
+  case Invalid_Registration_Link
+  case Expired_Registration_Link
+  case Duplicate_Device
+  case Existing_Mobile_Device
+  case Failed_Register_Device
+  case Failed_Unregister_Device
+  case Device_Not_Found
+  case Failed_Update_Device
+  case User_Exists
+  case Failed_Add_User
+  case Failed_Delete_User
+  case Failed_Get_Sessions
+  case Failed_Close_Session
+  case Failed_Get_Pending_Requests
+  case Failed_Create_Payload
+  case Invalid_Parameter
+  case Unexpected_Response_Code
+  case Unexpected_Response_Data
+  case Unexpected_Response_Type
+  case InvalidCredentials
+  case InvalidURL
+  case OperationFailed
+  case Error
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: IAMPASSiOS.IPError, b: IAMPASSiOS.IPError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers @objc open class IPMobileDevice : ObjectiveC.NSObject, Swift.Codable {
+  open var training_required: Swift.Bool {
+    get
+  }
+  public typealias device_success_proc = (_ identifier: Any, _ device: IAMPASSiOS.IPMobileDevice) -> Swift.Void
+  public typealias device_failure_proc = (_ identifier: Any, _ error: Swift.Error) -> Swift.Void
+  public static func registerDevice(identifier: Any, registration_link: Foundation.URL, notification_token: Swift.String, success: @escaping IAMPASSiOS.IPMobileDevice.device_success_proc, failure: @escaping IAMPASSiOS.IPMobileDevice.device_failure_proc)
+  open func unregister(identifier: Any, success: @escaping (_ identifier: Any) -> Swift.Void, failure: @escaping (_ identifier: Any, _ error: Swift.Error) -> Swift.Void)
+  open func update(identifier: Any, notification_token: Swift.String, success: @escaping (_ identifier: Any, _ device: IAMPASSiOS.IPMobileDevice) -> Swift.Void, failure: @escaping (_ identifier: Any, _ error: Swift.Error) -> Swift.Void)
+  public func trainingComplete()
+  @objc deinit
+  open func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Device : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Service : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class ServiceUrls : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Training : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class Facial : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class User : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+public enum SessionStatus : Swift.String {
+  case active
+  case paused
+  case closed
+  case pending
+  case identifying
+  case failed
+  case time_out
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_Concurrency.MainActor(unsafe) open class IPBusyViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public init?(message: Swift.String?, bundleIdentifier: Swift.String?, nibName: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @objc deinit
+}
+extension IAMPASSiOS.OS_Auth_Result : Swift.Equatable {}
+extension IAMPASSiOS.OS_Auth_Result : Swift.Hashable {}
+extension IAMPASSiOS.IPError : Swift.Equatable {}
+extension IAMPASSiOS.IPError : Swift.Hashable {}
+extension IAMPASSiOS.SessionStatus : Swift.Equatable {}
+extension IAMPASSiOS.SessionStatus : Swift.Hashable {}
+extension IAMPASSiOS.SessionStatus : Swift.RawRepresentable {}

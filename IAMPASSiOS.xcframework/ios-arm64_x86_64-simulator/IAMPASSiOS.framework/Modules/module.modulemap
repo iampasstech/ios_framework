@@ -1,0 +1,11 @@
+framework module IAMPASSiOS {
+  umbrella header "IAMPASSiOS.h"
+
+  export *
+  module * { export * }
+}
+
+module IAMPASSiOS.Swift {
+    header "IAMPASSiOS-Swift.h"
+    requires objc
+}
