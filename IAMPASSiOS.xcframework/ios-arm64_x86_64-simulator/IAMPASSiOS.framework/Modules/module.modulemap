@@ -6,6 +6,6 @@ framework module IAMPASSiOS {
 }
 
 module IAMPASSiOS.Swift {
-    header "IAMPASSiOS-Swift.h"
-    requires objc
+  header "IAMPASSiOS-Swift.h"
+  requires objc
 }

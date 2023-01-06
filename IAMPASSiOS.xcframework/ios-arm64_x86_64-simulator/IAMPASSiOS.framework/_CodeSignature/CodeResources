@@ -4,29 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Activeconnect.storyboardc/Info.plist</key>
-		<data>
-		GnMdGFfDuvwAuWJN7FS9ELLozY4=
-		</data>
 		<key>Assets.car</key>
 		<data>
-		qvElWi75Ctd+BGtepCoJnenj6hI=
+		i5KUfwvpgwCSJOPNy+nuArwuWrQ=
 		</data>
 		<key>Headers/IAMPASSiOS-Swift.h</key>
 		<data>
-		48+3Qfck9fyj+TvPTn7G2YugIeY=
+		XuM4+cmM6IEHtEyQa5PNL3zfPZw=
 		</data>
 		<key>Headers/IAMPASSiOS.h</key>
 		<data>
 		7f2MCwcD44j1AH1qUTBfkbkRlAQ=
 		</data>
+		<key>IAMPASS.storyboardc/Info.plist</key>
+		<data>
+		GnMdGFfDuvwAuWJN7FS9ELLozY4=
+		</data>
 		<key>IPAcceptanceViewController.nib</key>
 		<data>
-		bJZffjESQ8WZ2rX/N4f6BqGvKMQ=
+		T+9OkLxGv8/VRRu04OywkgVCzX4=
 		</data>
 		<key>IPBusyViewController.nib</key>
 		<data>
-		rXmovFAc0WSSPuwSuNtmLpRY17s=
+		natnFzOdNuAAo8vrNn3SL+x0OZI=
 		</data>
 		<key>IPCaptureFaceViewController.nib</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>IPOSViewController.nib</key>
 		<data>
-		pAf8QhpB4pRMAI115VOw6iT+ifg=
+		/tPjMIFnPvrvr/uSsTj6UXdt1fw=
 		</data>
 		<key>IPProximityViewController.nib</key>
 		<data>
-		KCExbspJNPPrhod/6N0uYqhgsKc=
+		cRCnlicQDox4lU0Pc8cVxpNhm6A=
 		</data>
 		<key>IPStatusViewController.nib</key>
 		<data>
-		BhxupHbNlLqQmqf5fDFlCRI/4BY=
+		kpfYkBfo0ibj47IaYU5opN+P0nI=
 		</data>
 		<key>IPTrainingRequiredViewController.nib</key>
 		<data>
-		JpPye8qrFv9bI/FIefnl0Z9tXNY=
+		IHFt7oPItZGygDd+dvbt9XfUSB0=
 		</data>
 		<key>IPTrainingViewController.nib</key>
 		<data>
@@ -58,62 +58,71 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ms43rURHvv/RIcWzRMSVkBXBAvY=
+		ThvgZSLuf7aPjwqd+jeHtu7J4SI=
 		</data>
 		<key>Localizable.strings</key>
 		<data>
 		czB+6h0VwY4e037L0V28g25zsq0=
 		</data>
+		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		3R1iJItSS8PMAaoP0mLefl8qC58=
+		</data>
+		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		s66hCKOIKHm+0cURxs26GtNgBzE=
+		</data>
 		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rkr0ZuSEC//koj96Wsj6DDQwrI0=
+		9eKTqhiNow9yo3G4tJLDsltk+IA=
 		</data>
 		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		v06+FlAnoO4qPvhqDEEwlCWEKQQ=
+		s66hCKOIKHm+0cURxs26GtNgBzE=
 		</data>
 		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rq9/AWCzYzN5Nss8SYK+cQc1z+Q=
+		YBkMtaO54uU56zgEHGW2sARJypY=
+		</data>
+		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		3R1iJItSS8PMAaoP0mLefl8qC58=
+		</data>
+		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		YifZAVY7lvs58yadiHXyNnTqF+g=
 		</data>
 		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		aTkzZ3ebrs0rwbTS5f4x1XuJmwc=
+		qWv4oqvWbUComey33HBTR283ZbE=
 		</data>
 		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2E9VixGFkmqJhJbN4fwWXB9dCBk=
+		YifZAVY7lvs58yadiHXyNnTqF+g=
 		</data>
 		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		edPGtLo7Hvo9cLbI4uJ+L0sgw58=
+		BN7gq1xZA/LBD/MoHh8z9/PpHbk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		57PQepYcqyQMjrXugO7b+uyBtv8=
+		HcE/ir2ECWfM4k8nLXbQVP3jtLI=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Activeconnect.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9gq+m2SfIqZdO4RnP+Q5bwx0h1nftPpvwkJZZ8jBiZE=
-			</data>
-		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d+LuTlmdiRjF2dqlKgywPhO0w38VGE+kkRtVv/g0oKk=
+			LX6oXXNPsmaIhNTIB11XDiJbigh3u4fkzLZaN6s4eA0=
 			</data>
 		</dict>
 		<key>Headers/IAMPASSiOS-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			srDkooK15jeFGqTJjDv5ZyyHPNgqj9wnE2MfWFcoZJ4=
+			8cQSXqSj1q35YEHYyaTncHdGOFy+/J7JICtD79kTmTM=
 			</data>
 		</dict>
 		<key>Headers/IAMPASSiOS.h</key>
@@ -123,18 +132,25 @@
 			S2rg4752rdzRVUKtuahO1rQ5OK4XuYi6VFjrxLPojq8=
 			</data>
 		</dict>
+		<key>IAMPASS.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9gq+m2SfIqZdO4RnP+Q5bwx0h1nftPpvwkJZZ8jBiZE=
+			</data>
+		</dict>
 		<key>IPAcceptanceViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xharS1HrUkMiLOQCrFKuTvjXEWeyWj4HSgAhJVB2LoY=
+			/23gT09Gjavf0UCf3+DiXgZZn2o2uQOcO1WPBf78fH0=
 			</data>
 		</dict>
 		<key>IPBusyViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Od0pgGINJtoCF6wqoFtV9GedLFvZTI9A3np7gNNkc/4=
+			HC9eBxhaeaJK4qw02jAgWkkHuSRIkJrUN/1dqVK3NHU=
 			</data>
 		</dict>
 		<key>IPCaptureFaceViewController.nib</key>
@@ -155,28 +171,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			knKpETIazTIkcBUvJd04k/6dn0gBRXKLa3WhpNtRSv4=
+			P12o/1DHcBCUvegKvjmpyq+iBXxnF6cJWiJ297UKWPI=
 			</data>
 		</dict>
 		<key>IPProximityViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bVTg80kZhPVUkiJMwvMqcfy9AyLhpKXRrNR/zmLdT4g=
+			FfMVptqeVv2oSZ9Y+QDDC/71U8sNSt4fJot3wFhEJz4=
 			</data>
 		</dict>
 		<key>IPStatusViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LP5cQDxL6rs96UQS4e/HvBwsuBBkQ+ReHMFz+Lo37V4=
+			rnsmsIr7cNLSRvwX/ecALjI62g9WQDig6PTZUlF8CoI=
 			</data>
 		</dict>
 		<key>IPTrainingRequiredViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LHicsgPxn40VzCXma2Nq79/lMWEahbYyyZfBXlrCdmc=
+			nmSc5XvkvYffAIAgJY5Q91kVrLp7YEcjNUA1q7NrUHk=
 			</data>
 		</dict>
 		<key>IPTrainingViewController.nib</key>
@@ -193,53 +209,81 @@
 			oIjQucZizLk81OXK2NoOAeBHQedK5VSofZDl002K1NI=
 			</data>
 		</dict>
+		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pNwmU1LPdNO7MfKl9IRnFQkchSLlM35fRJs6GS4d3MQ=
+			</data>
+		</dict>
+		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AzsQsOG8e6aWgiiaauk8q52ZXtOQ6A3xH/6Vlvti36A=
+			</data>
+		</dict>
 		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t9okmANdYK2QQ6t72DAJ7CIPr82o1GdrqnltO/sF9Xk=
+			8bY8/zDLQ+1O3URC34cWQZ0oMahqJFRDfQZmyE1PbAU=
 			</data>
 		</dict>
 		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9nSnQskrKCXxYVGhNpL++SiyvST8eAbuTHTDqpgi69g=
+			AzsQsOG8e6aWgiiaauk8q52ZXtOQ6A3xH/6Vlvti36A=
 			</data>
 		</dict>
 		<key>Modules/IAMPASSiOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			inatyIgTQkhRhXZAx2RNBnsE9k4LyZAl+C4W4H/ja14=
+			rVY7CNQmSBs8qpttDbpb04l5t9nvpWFaZYCtR3FGXDA=
+			</data>
+		</dict>
+		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pNwmU1LPdNO7MfKl9IRnFQkchSLlM35fRJs6GS4d3MQ=
+			</data>
+		</dict>
+		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mo5kCv+6tIjBPMH6L6iSyhNj3bEKOSyvRM3SDDYjS7U=
 			</data>
 		</dict>
 		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PsR7fYiqNoK4XUgJmcvvnj/BuqFaEq/NcX1ffB7/8GE=
+			6IrsRbMfJeGoFChwS1zi5q1MhnkecFMlJmpSndTuXlo=
 			</data>
 		</dict>
 		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jJqqUjs9JZEEmORE+lRnyxER0LXDl3ervxECN8y52N8=
+			mo5kCv+6tIjBPMH6L6iSyhNj3bEKOSyvRM3SDDYjS7U=
 			</data>
 		</dict>
 		<key>Modules/IAMPASSiOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZPdEqB7g/EUPjYQ3weNNxCTuX0ujUT3FPlfgw1V5/58=
+			wn9W/0nao8dejusKCYatk03QAOjSUNyJ/OESCqpUTKo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DZg/NsVnckQaXYetenBxocfIa/I3A+9GrivyqG66rxk=
+			caZGJX2nkDRXPSwT363q+tO6Grohu78hPdLI6wzwRHM=
 			</data>
 		</dict>
 	</dict>
