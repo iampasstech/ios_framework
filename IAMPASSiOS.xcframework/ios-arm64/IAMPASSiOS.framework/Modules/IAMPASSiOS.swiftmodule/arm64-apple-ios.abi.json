@@ -180,21 +180,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IAMPASSiOS.IPMobileDevice?",
+                "printedName": "IAMPASSiOS.IPUser?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IPMobileDevice",
-                    "printedName": "IAMPASSiOS.IPMobileDevice",
-                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                    "name": "IPUser",
+                    "printedName": "IAMPASSiOS.IPUser",
+                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA08IPMobileG0CSgvp",
-            "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA08IPMobileG0CSgvp",
+            "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA6IPUserCSgvp",
+            "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA6IPUserCSgvp",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "Custom",
@@ -213,21 +213,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IAMPASSiOS.IPMobileDevice?",
+                    "printedName": "IAMPASSiOS.IPUser?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA08IPMobileG0CSgvg",
-                "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA08IPMobileG0CSgvg",
+                "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA6IPUserCSgvg",
+                "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA6IPUserCSgvg",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -245,21 +245,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IAMPASSiOS.IPMobileDevice?",
+                    "printedName": "IAMPASSiOS.IPUser?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA08IPMobileG0CSgvs",
-                "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA08IPMobileG0CSgvs",
+                "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA6IPUserCSgvs",
+                "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA6IPUserCSgvs",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "set"
@@ -276,8 +276,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA08IPMobileG0CSgvM",
-                "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA08IPMobileG0CSgvM",
+                "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA6IPUserCSgvM",
+                "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC12mobileDeviceAA6IPUserCSgvM",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1868,9 +1868,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IPMobileDevice",
-                "printedName": "IAMPASSiOS.IPMobileDevice",
-                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                "name": "IPUser",
+                "printedName": "IAMPASSiOS.IPUser",
+                "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
               },
               {
                 "kind": "TypeFunc",
@@ -1931,8 +1931,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC6create7request6device7success7failureACSgAA0C7RequestC_AA14IPMobileDeviceCyACcyAC_s5Error_pSgtctFZ",
-            "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC6create7request6device7success7failureACSgAA0C7RequestC_AA14IPMobileDeviceCyACcyAC_s5Error_pSgtctFZ",
+            "usr": "s:10IAMPASSiOS30IPAuthenticationViewControllerC6create7request6device7success7failureACSgAA0C7RequestC_AA6IPUserCyACcyAC_s5Error_pSgtctFZ",
+            "mangledName": "$s10IAMPASSiOS30IPAuthenticationViewControllerC6create7request6device7success7failureACSgAA0C7RequestC_AA6IPUserCyACcyAC_s5Error_pSgtctFZ",
             "moduleName": "IAMPASSiOS",
             "static": true,
             "declAttributes": [
@@ -3278,12 +3278,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice) -> ())?",
+                "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice) -> ()",
+                    "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3293,7 +3293,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice)",
+                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3316,9 +3316,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "IPMobileDevice",
-                            "printedName": "IAMPASSiOS.IPMobileDevice",
-                            "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                            "name": "IPUser",
+                            "printedName": "IAMPASSiOS.IPUser",
+                            "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                           }
                         ]
                       }
@@ -3329,8 +3329,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA14IPMobileDeviceCtcSgvp",
-            "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA14IPMobileDeviceCtcSgvp",
+            "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA6IPUserCtcSgvp",
+            "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA6IPUserCtcSgvp",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "Custom",
@@ -3349,12 +3349,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice) -> ())?",
+                    "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice) -> ()",
+                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3364,7 +3364,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice)",
+                            "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -3387,9 +3387,9 @@
                               },
                               {
                                 "kind": "TypeNominal",
-                                "name": "IPMobileDevice",
-                                "printedName": "IAMPASSiOS.IPMobileDevice",
-                                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                                "name": "IPUser",
+                                "printedName": "IAMPASSiOS.IPUser",
+                                "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                               }
                             ]
                           }
@@ -3400,8 +3400,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA14IPMobileDeviceCtcSgvg",
-                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA14IPMobileDeviceCtcSgvg",
+                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA6IPUserCtcSgvg",
+                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA6IPUserCtcSgvg",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3419,12 +3419,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice) -> ())?",
+                    "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice) -> ()",
+                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3434,7 +3434,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice)",
+                            "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -3457,9 +3457,9 @@
                               },
                               {
                                 "kind": "TypeNominal",
-                                "name": "IPMobileDevice",
-                                "printedName": "IAMPASSiOS.IPMobileDevice",
-                                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                                "name": "IPUser",
+                                "printedName": "IAMPASSiOS.IPUser",
+                                "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                               }
                             ]
                           }
@@ -3470,8 +3470,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA14IPMobileDeviceCtcSgvs",
-                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA14IPMobileDeviceCtcSgvs",
+                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA6IPUserCtcSgvs",
+                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA6IPUserCtcSgvs",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3488,8 +3488,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA14IPMobileDeviceCtcSgvM",
-                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA14IPMobileDeviceCtcSgvM",
+                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA6IPUserCtcSgvM",
+                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7successyAC_ypSgAA6IPUserCtcSgvM",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3504,12 +3504,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?) -> ())?",
+                "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?) -> ()",
+                    "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -3519,7 +3519,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Tuple",
-                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?)",
+                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?)",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3542,9 +3542,9 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "IPMobileDevice",
-                            "printedName": "IAMPASSiOS.IPMobileDevice",
-                            "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                            "name": "IPUser",
+                            "printedName": "IAMPASSiOS.IPUser",
+                            "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                           },
                           {
                             "kind": "TypeNominal",
@@ -3569,8 +3569,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA14IPMobileDeviceCs5Error_pSgtcSgvp",
-            "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA14IPMobileDeviceCs5Error_pSgtcSgvp",
+            "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA6IPUserCs5Error_pSgtcSgvp",
+            "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA6IPUserCs5Error_pSgtcSgvp",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "Custom",
@@ -3589,12 +3589,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?) -> ())?",
+                    "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?) -> ()",
+                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3604,7 +3604,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?)",
+                            "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -3627,9 +3627,9 @@
                               },
                               {
                                 "kind": "TypeNominal",
-                                "name": "IPMobileDevice",
-                                "printedName": "IAMPASSiOS.IPMobileDevice",
-                                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                                "name": "IPUser",
+                                "printedName": "IAMPASSiOS.IPUser",
+                                "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                               },
                               {
                                 "kind": "TypeNominal",
@@ -3654,8 +3654,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA14IPMobileDeviceCs5Error_pSgtcSgvg",
-                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA14IPMobileDeviceCs5Error_pSgtcSgvg",
+                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA6IPUserCs5Error_pSgtcSgvg",
+                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA6IPUserCs5Error_pSgtcSgvg",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3673,12 +3673,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?) -> ())?",
+                    "printedName": "((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?) -> ()",
+                        "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -3688,7 +3688,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Tuple",
-                            "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?)",
+                            "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?)",
                             "children": [
                               {
                                 "kind": "TypeNominal",
@@ -3711,9 +3711,9 @@
                               },
                               {
                                 "kind": "TypeNominal",
-                                "name": "IPMobileDevice",
-                                "printedName": "IAMPASSiOS.IPMobileDevice",
-                                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                                "name": "IPUser",
+                                "printedName": "IAMPASSiOS.IPUser",
+                                "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                               },
                               {
                                 "kind": "TypeNominal",
@@ -3738,8 +3738,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA14IPMobileDeviceCs5Error_pSgtcSgvs",
-                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA14IPMobileDeviceCs5Error_pSgtcSgvs",
+                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA6IPUserCs5Error_pSgtcSgvs",
+                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA6IPUserCs5Error_pSgtcSgvs",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3756,8 +3756,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA14IPMobileDeviceCs5Error_pSgtcSgvM",
-                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA14IPMobileDeviceCs5Error_pSgtcSgvM",
+                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA6IPUserCs5Error_pSgtcSgvM",
+                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC7failureyAC_ypSgAA6IPUserCs5Error_pSgtcSgvM",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4566,27 +4566,27 @@
           },
           {
             "kind": "Var",
-            "name": "device",
-            "printedName": "device",
+            "name": "user",
+            "printedName": "user",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IAMPASSiOS.IPMobileDevice?",
+                "printedName": "IAMPASSiOS.IPUser?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IPMobileDevice",
-                    "printedName": "IAMPASSiOS.IPMobileDevice",
-                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                    "name": "IPUser",
+                    "printedName": "IAMPASSiOS.IPUser",
+                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC6deviceAA14IPMobileDeviceCSgvp",
-            "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC6deviceAA14IPMobileDeviceCSgvp",
+            "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC4userAA6IPUserCSgvp",
+            "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC4userAA6IPUserCSgvp",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "Custom",
@@ -4605,21 +4605,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IAMPASSiOS.IPMobileDevice?",
+                    "printedName": "IAMPASSiOS.IPUser?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC6deviceAA14IPMobileDeviceCSgvg",
-                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC6deviceAA14IPMobileDeviceCSgvg",
+                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC4userAA6IPUserCSgvg",
+                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC4userAA6IPUserCSgvg",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -4637,21 +4637,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IAMPASSiOS.IPMobileDevice?",
+                    "printedName": "IAMPASSiOS.IPUser?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC6deviceAA14IPMobileDeviceCSgvs",
-                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC6deviceAA14IPMobileDeviceCSgvs",
+                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC4userAA6IPUserCSgvs",
+                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC4userAA6IPUserCSgvs",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "set"
@@ -4668,8 +4668,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC6deviceAA14IPMobileDeviceCSgvM",
-                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC6deviceAA14IPMobileDeviceCSgvM",
+                "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC4userAA6IPUserCSgvM",
+                "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC4userAA6IPUserCSgvM",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4788,7 +4788,7 @@
           {
             "kind": "Function",
             "name": "create",
-            "printedName": "create(device:identifier:success:failure:)",
+            "printedName": "create(user:identifier:success:failure:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4806,9 +4806,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "IPMobileDevice",
-                "printedName": "IAMPASSiOS.IPMobileDevice",
-                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                "name": "IPUser",
+                "printedName": "IAMPASSiOS.IPUser",
+                "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
               },
               {
                 "kind": "TypeNominal",
@@ -4818,7 +4818,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice) -> ()",
+                "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4828,7 +4828,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice)",
+                    "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4851,9 +4851,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ]
                   }
@@ -4862,7 +4862,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?) -> ()",
+                "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4872,7 +4872,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?)",
+                    "printedName": "(IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -4895,9 +4895,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       },
                       {
                         "kind": "TypeNominal",
@@ -4919,8 +4919,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC6create6device10identifier7success7failureACSgAA14IPMobileDeviceC_ypyAC_ypSgAKtcyAC_AlKs5Error_pSgtctFZ",
-            "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC6create6device10identifier7success7failureACSgAA14IPMobileDeviceC_ypyAC_ypSgAKtcyAC_AlKs5Error_pSgtctFZ",
+            "usr": "s:10IAMPASSiOS24IPTrainingViewControllerC6create4user10identifier7success7failureACSgAA6IPUserC_ypyAC_ypSgAKtcyAC_AlKs5Error_pSgtctFZ",
+            "mangledName": "$s10IAMPASSiOS24IPTrainingViewControllerC6create4user10identifier7success7failureACSgAA6IPUserC_ypyAC_ypSgAKtcyAC_AlKs5Error_pSgtctFZ",
             "moduleName": "IAMPASSiOS",
             "static": true,
             "declAttributes": [
@@ -6252,224 +6252,24 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "IPNotificationHandlerDelegate",
-        "printedName": "IPNotificationHandlerDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "presentAuthenticationUI",
-            "printedName": "presentAuthenticationUI(request:device:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IPAuthenticationRequest",
-                "printedName": "IAMPASSiOS.IPAuthenticationRequest",
-                "usr": "s:10IAMPASSiOS23IPAuthenticationRequestC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IPMobileDevice",
-                "printedName": "IAMPASSiOS.IPMobileDevice",
-                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10IAMPASSiOS29IPNotificationHandlerDelegateP23presentAuthenticationUI7request6deviceyAA23IPAuthenticationRequestC_AA14IPMobileDeviceCtF",
-            "mangledName": "$s10IAMPASSiOS29IPNotificationHandlerDelegateP23presentAuthenticationUI7request6deviceyAA23IPAuthenticationRequestC_AA14IPMobileDeviceCtF",
-            "moduleName": "IAMPASSiOS",
-            "genericSig": "<τ_0_0 where τ_0_0 : IAMPASSiOS.IPNotificationHandlerDelegate>",
-            "sugared_genericSig": "<Self where Self : IAMPASSiOS.IPNotificationHandlerDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "sessionStatusChanged",
-            "printedName": "sessionStatusChanged(status:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IPSessionStatus",
-                "printedName": "IAMPASSiOS.IPSessionStatus",
-                "usr": "s:10IAMPASSiOS15IPSessionStatusC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10IAMPASSiOS29IPNotificationHandlerDelegateP20sessionStatusChanged6statusyAA09IPSessionG0C_tF",
-            "mangledName": "$s10IAMPASSiOS29IPNotificationHandlerDelegateP20sessionStatusChanged6statusyAA09IPSessionG0C_tF",
-            "moduleName": "IAMPASSiOS",
-            "genericSig": "<τ_0_0 where τ_0_0 : IAMPASSiOS.IPNotificationHandlerDelegate>",
-            "sugared_genericSig": "<Self where Self : IAMPASSiOS.IPNotificationHandlerDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:10IAMPASSiOS29IPNotificationHandlerDelegateP",
-        "mangledName": "$s10IAMPASSiOS29IPNotificationHandlerDelegateP",
-        "moduleName": "IAMPASSiOS",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "IPNotificationHandler",
         "printedName": "IPNotificationHandler",
         "children": [
           {
-            "kind": "TypeDecl",
-            "name": "NotificationHandlerResult",
-            "printedName": "NotificationHandlerResult",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "suggestedCompletionResult",
-                "printedName": "suggestedCompletionResult",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIBackgroundFetchResult",
-                    "printedName": "UIKit.UIBackgroundFetchResult",
-                    "usr": "c:@E@UIBackgroundFetchResult"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV019suggestedCompletionF0So017UIBackgroundFetchF0Vvp",
-                "mangledName": "$s10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV019suggestedCompletionF0So017UIBackgroundFetchF0Vvp",
-                "moduleName": "IAMPASSiOS",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIBackgroundFetchResult",
-                        "printedName": "UIKit.UIBackgroundFetchResult",
-                        "usr": "c:@E@UIBackgroundFetchResult"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV019suggestedCompletionF0So017UIBackgroundFetchF0Vvg",
-                    "mangledName": "$s10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV019suggestedCompletionF0So017UIBackgroundFetchF0Vvg",
-                    "moduleName": "IAMPASSiOS",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "ipNotification",
-                "printedName": "ipNotification",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV02ipE0Sbvp",
-                "mangledName": "$s10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV02ipE0Sbvp",
-                "moduleName": "IAMPASSiOS",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV02ipE0Sbvg",
-                    "mangledName": "$s10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV02ipE0Sbvg",
-                    "moduleName": "IAMPASSiOS",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV",
-            "mangledName": "$s10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(delegate:)",
+            "printedName": "init()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "IPNotificationHandler",
                 "printedName": "IAMPASSiOS.IPNotificationHandler",
                 "usr": "s:10IAMPASSiOS21IPNotificationHandlerC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "IAMPASSiOS.IPNotificationHandlerDelegate?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IPNotificationHandlerDelegate",
-                    "printedName": "IAMPASSiOS.IPNotificationHandlerDelegate",
-                    "usr": "s:10IAMPASSiOS29IPNotificationHandlerDelegateP"
-                  }
-                ],
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10IAMPASSiOS21IPNotificationHandlerC8delegateAcA0cD8Delegate_pSg_tcfc",
-            "mangledName": "$s10IAMPASSiOS21IPNotificationHandlerC8delegateAcA0cD8Delegate_pSg_tcfc",
+            "usr": "s:10IAMPASSiOS21IPNotificationHandlerCACycfc",
+            "mangledName": "$s10IAMPASSiOS21IPNotificationHandlerCACycfc",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "AccessControl",
@@ -6480,13 +6280,12 @@
           {
             "kind": "Function",
             "name": "processNotification",
-            "printedName": "processNotification(userInfo:registeredDevices:)",
+            "printedName": "processNotification(userInfo:registeredUsers:onAuthenticationRequest:onStatusChanged:onError:onIgnore:defaultHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "NotificationHandlerResult",
-                "printedName": "IAMPASSiOS.IPNotificationHandler.NotificationHandlerResult",
-                "usr": "s:10IAMPASSiOS21IPNotificationHandlerC012NotificationD6ResultV"
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
@@ -6510,21 +6309,144 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[IAMPASSiOS.IPMobileDevice]",
+                "printedName": "[IAMPASSiOS.IPUser]",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IPMobileDevice",
-                    "printedName": "IAMPASSiOS.IPMobileDevice",
-                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                    "name": "IPUser",
+                    "printedName": "IAMPASSiOS.IPUser",
+                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                   }
                 ],
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IAMPASSiOS.IPAuthenticationRequest, IAMPASSiOS.IPUser) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(IAMPASSiOS.IPAuthenticationRequest, IAMPASSiOS.IPUser)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IPAuthenticationRequest",
+                        "printedName": "IAMPASSiOS.IPAuthenticationRequest",
+                        "usr": "s:10IAMPASSiOS23IPAuthenticationRequestC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(IAMPASSiOS.IPSessionStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IPSessionStatus",
+                    "printedName": "IAMPASSiOS.IPSessionStatus",
+                    "usr": "s:10IAMPASSiOS15IPSessionStatusC"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.AnyHashable : Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "s:10IAMPASSiOS21IPNotificationHandlerC19processNotification8userInfo17registeredDevicesAC0fD6ResultVSDys11AnyHashableVypG_SayAA14IPMobileDeviceCGtF",
-            "mangledName": "$s10IAMPASSiOS21IPNotificationHandlerC19processNotification8userInfo17registeredDevicesAC0fD6ResultVSDys11AnyHashableVypG_SayAA14IPMobileDeviceCGtF",
+            "usr": "s:10IAMPASSiOS21IPNotificationHandlerC19processNotification8userInfo15registeredUsers23onAuthenticationRequest0K13StatusChanged0K5Error0K6Ignore07defaultD0ySDys11AnyHashableVypG_SayAA6IPUserCGyAA016IPAuthenticationM0C_APtcyAA09IPSessionN0Ccys0P0_pSgcyycyANctF",
+            "mangledName": "$s10IAMPASSiOS21IPNotificationHandlerC19processNotification8userInfo15registeredUsers23onAuthenticationRequest0K13StatusChanged0K5Error0K6Ignore07defaultD0ySDys11AnyHashableVypG_SayAA6IPUserCGyAA016IPAuthenticationM0C_APtcyAA09IPSessionN0Ccys0P0_pSgcyycyANctF",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "AccessControl",
@@ -6581,6 +6503,275 @@
         "name": "IPAuthenticationSession",
         "printedName": "IPAuthenticationSession",
         "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SessionStatus",
+                "printedName": "IAMPASSiOS.SessionStatus",
+                "usr": "s:10IAMPASSiOS13SessionStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC6statusAA0D6StatusOvp",
+            "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC6statusAA0D6StatusOvp",
+            "moduleName": "IAMPASSiOS",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionStatus",
+                    "printedName": "IAMPASSiOS.SessionStatus",
+                    "usr": "s:10IAMPASSiOS13SessionStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC6statusAA0D6StatusOvg",
+                "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC6statusAA0D6StatusOvg",
+                "moduleName": "IAMPASSiOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionStatus",
+                    "printedName": "IAMPASSiOS.SessionStatus",
+                    "usr": "s:10IAMPASSiOS13SessionStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC6statusAA0D6StatusOvs",
+                "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC6statusAA0D6StatusOvs",
+                "moduleName": "IAMPASSiOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC6statusAA0D6StatusOvM",
+                "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC6statusAA0D6StatusOvM",
+                "moduleName": "IAMPASSiOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "reason",
+            "printedName": "reason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC6reasonSSSgvp",
+            "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC6reasonSSSgvp",
+            "moduleName": "IAMPASSiOS",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC6reasonSSSgvg",
+                "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC6reasonSSSgvg",
+                "moduleName": "IAMPASSiOS",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isInProgress",
+            "printedName": "isInProgress",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC12isInProgressSbvp",
+            "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC12isInProgressSbvp",
+            "moduleName": "IAMPASSiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC12isInProgressSbvg",
+                "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC12isInProgressSbvg",
+                "moduleName": "IAMPASSiOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "didFail",
+            "printedName": "didFail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC7didFailSbvp",
+            "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC7didFailSbvp",
+            "moduleName": "IAMPASSiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC7didFailSbvg",
+                "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC7didFailSbvg",
+                "moduleName": "IAMPASSiOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAuthenticated",
+            "printedName": "isAuthenticated",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC15isAuthenticatedSbvp",
+            "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC15isAuthenticatedSbvp",
+            "moduleName": "IAMPASSiOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10IAMPASSiOS23IPAuthenticationSessionC15isAuthenticatedSbvg",
+                "mangledName": "$s10IAMPASSiOS23IPAuthenticationSessionC15isAuthenticatedSbvg",
+                "moduleName": "IAMPASSiOS",
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Constructor",
             "name": "init",
@@ -6957,584 +7148,6 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "IPStartAuthenticationParams",
-        "printedName": "IPStartAuthenticationParams",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "user_id",
-            "printedName": "user_id",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC7user_idSSvp",
-            "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC7user_idSSvp",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC7user_idSSvg",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC7user_idSSvg",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC7user_idSSvs",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC7user_idSSvs",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC7user_idSSvM",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC7user_idSSvM",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "methods",
-            "printedName": "methods",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[IAMPASSiOS.IPAuthenticationMethod]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[IAMPASSiOS.IPAuthenticationMethod]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IPAuthenticationMethod",
-                        "printedName": "IAMPASSiOS.IPAuthenticationMethod",
-                        "usr": "s:10IAMPASSiOS22IPAuthenticationMethodO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC7methodsSayAA22IPAuthenticationMethodOGSgvp",
-            "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC7methodsSayAA22IPAuthenticationMethodOGSgvp",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[IAMPASSiOS.IPAuthenticationMethod]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[IAMPASSiOS.IPAuthenticationMethod]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "IPAuthenticationMethod",
-                            "printedName": "IAMPASSiOS.IPAuthenticationMethod",
-                            "usr": "s:10IAMPASSiOS22IPAuthenticationMethodO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC7methodsSayAA22IPAuthenticationMethodOGSgvg",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC7methodsSayAA22IPAuthenticationMethodOGSgvg",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[IAMPASSiOS.IPAuthenticationMethod]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[IAMPASSiOS.IPAuthenticationMethod]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "IPAuthenticationMethod",
-                            "printedName": "IAMPASSiOS.IPAuthenticationMethod",
-                            "usr": "s:10IAMPASSiOS22IPAuthenticationMethodO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC7methodsSayAA22IPAuthenticationMethodOGSgvs",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC7methodsSayAA22IPAuthenticationMethodOGSgvs",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC7methodsSayAA22IPAuthenticationMethodOGSgvM",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC7methodsSayAA22IPAuthenticationMethodOGSgvM",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "duration_seconds",
-            "printedName": "duration_seconds",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC16duration_secondsSiSgvp",
-            "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC16duration_secondsSiSgvp",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC16duration_secondsSiSgvg",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC16duration_secondsSiSgvg",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC16duration_secondsSiSgvs",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC16duration_secondsSiSgvs",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC16duration_secondsSiSgvM",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC16duration_secondsSiSgvM",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "device",
-            "printedName": "device",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IPMobileDevice",
-                "printedName": "IAMPASSiOS.IPMobileDevice",
-                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC6deviceAA14IPMobileDeviceCvp",
-            "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC6deviceAA14IPMobileDeviceCvp",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IPMobileDevice",
-                    "printedName": "IAMPASSiOS.IPMobileDevice",
-                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC6deviceAA14IPMobileDeviceCvg",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC6deviceAA14IPMobileDeviceCvg",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IPMobileDevice",
-                    "printedName": "IAMPASSiOS.IPMobileDevice",
-                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC6deviceAA14IPMobileDeviceCvs",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC6deviceAA14IPMobileDeviceCvs",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC6deviceAA14IPMobileDeviceCvM",
-                "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC6deviceAA14IPMobileDeviceCvM",
-                "moduleName": "IAMPASSiOS",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(client_id:device:methods:duration_seconds:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IPStartAuthenticationParams",
-                "printedName": "IAMPASSiOS.IPStartAuthenticationParams",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IPMobileDevice",
-                "printedName": "IAMPASSiOS.IPMobileDevice",
-                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[IAMPASSiOS.IPAuthenticationMethod]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[IAMPASSiOS.IPAuthenticationMethod]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IPAuthenticationMethod",
-                        "printedName": "IAMPASSiOS.IPAuthenticationMethod",
-                        "usr": "s:10IAMPASSiOS22IPAuthenticationMethodO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC9client_id6device7methods16duration_secondsACSS_AA14IPMobileDeviceCSayAA22IPAuthenticationMethodOGSgSiSgtcfc",
-            "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC9client_id6device7methods16duration_secondsACSS_AA14IPMobileDeviceCSayAA22IPAuthenticationMethodOGSgSiSgtcfc",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IPStartAuthenticationParams",
-                "printedName": "IAMPASSiOS.IPStartAuthenticationParams",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "Required",
-              "AccessControl"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC6encode2toys7Encoder_p_tKF",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC",
-        "mangledName": "$s10IAMPASSiOS27IPStartAuthenticationParamsC",
-        "moduleName": "IAMPASSiOS",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
           }
         ]
       },
@@ -7952,82 +7565,6 @@
             "declKind": "Func",
             "usr": "s:10IAMPASSiOS19IPAuthenticationAPIC16authenticateUser9client_id7methods7success7failureySS_SayAA0C6MethodOGySS_AA0C7SessionCtcys5Error_pctF",
             "mangledName": "$s10IAMPASSiOS19IPAuthenticationAPIC16authenticateUser9client_id7methods7success7failureySS_SayAA0C6MethodOGySS_AA0C7SessionCtcys5Error_pctF",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startAuthentication",
-            "printedName": "startAuthentication(params:success:failure:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "IPStartAuthenticationParams",
-                "printedName": "IAMPASSiOS.IPStartAuthenticationParams",
-                "usr": "s:10IAMPASSiOS27IPStartAuthenticationParamsC"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String, IAMPASSiOS.IPAuthenticateUserResponse) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.String, IAMPASSiOS.IPAuthenticateUserResponse)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "IPAuthenticateUserResponse",
-                        "printedName": "IAMPASSiOS.IPAuthenticateUserResponse",
-                        "usr": "s:10IAMPASSiOS26IPAuthenticateUserResponseC"
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Error) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10IAMPASSiOS19IPAuthenticationAPIC19startAuthentication6params7success7failureyAA07IPStartF6ParamsC_ySS_AA26IPAuthenticateUserResponseCtcys5Error_pctF",
-            "mangledName": "$s10IAMPASSiOS19IPAuthenticationAPIC19startAuthentication6params7success7failureyAA07IPStartF6ParamsC_ySS_AA26IPAuthenticateUserResponseCtcys5Error_pctF",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "AccessControl",
@@ -9278,54 +8815,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "DEVELOPMENT_IAMPASS_CONFIGURATION",
-            "printedName": "DEVELOPMENT_IAMPASS_CONFIGURATION",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "IAMPASSConfiguration",
-                "printedName": "IAMPASSiOS.IAMPASSConfiguration",
-                "usr": "s:10IAMPASSiOS20IAMPASSConfigurationV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10IAMPASSiOS20IAMPASSConfigurationV33DEVELOPMENT_IAMPASS_CONFIGURATIONACvpZ",
-            "mangledName": "$s10IAMPASSiOS20IAMPASSConfigurationV33DEVELOPMENT_IAMPASS_CONFIGURATIONACvpZ",
-            "moduleName": "IAMPASSiOS",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "IAMPASSConfiguration",
-                    "printedName": "IAMPASSiOS.IAMPASSConfiguration",
-                    "usr": "s:10IAMPASSiOS20IAMPASSConfigurationV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS20IAMPASSConfigurationV33DEVELOPMENT_IAMPASS_CONFIGURATIONACvgZ",
-                "mangledName": "$s10IAMPASSiOS20IAMPASSConfigurationV33DEVELOPMENT_IAMPASS_CONFIGURATIONACvgZ",
-                "moduleName": "IAMPASSiOS",
-                "static": true,
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(server_url:)",
@@ -9434,7 +8923,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any, IAMPASSiOS.IPMobileDevice) -> ()",
+                "printedName": "(Any, IAMPASSiOS.IPUser) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -9444,7 +8933,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any, IAMPASSiOS.IPMobileDevice)",
+                    "printedName": "(Any, IAMPASSiOS.IPUser)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -9453,9 +8942,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ]
                   }
@@ -9493,8 +8982,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10IAMPASSiOS15IPManagementAPIC31create_user_and_register_device0F018notification_token7success7failureySS_SSyyp_AA14IPMobileDeviceCtcyyp_s5Error_ptctF",
-            "mangledName": "$s10IAMPASSiOS15IPManagementAPIC31create_user_and_register_device0F018notification_token7success7failureySS_SSyyp_AA14IPMobileDeviceCtcyyp_s5Error_ptctF",
+            "usr": "s:10IAMPASSiOS15IPManagementAPIC31create_user_and_register_device0F018notification_token7success7failureySS_SSyyp_AA6IPUserCtcyyp_s5Error_ptctF",
+            "mangledName": "$s10IAMPASSiOS15IPManagementAPIC31create_user_and_register_device0F018notification_token7success7failureySS_SSyyp_AA6IPUserCtcyyp_s5Error_ptctF",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "AccessControl",
@@ -9657,138 +9146,6 @@
             "declKind": "Func",
             "usr": "s:10IAMPASSiOS15IPManagementAPIC8add_user0F07success7failureySS_yycys5Error_pctF",
             "mangledName": "$s10IAMPASSiOS15IPManagementAPIC8add_user0F07success7failureySS_yycys5Error_pctF",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "delete_users",
-            "printedName": "delete_users(users:success:failure:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Error) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10IAMPASSiOS15IPManagementAPIC12delete_users0F07success7failureySaySSG_yycys5Error_pctF",
-            "mangledName": "$s10IAMPASSiOS15IPManagementAPIC12delete_users0F07success7failureySaySSG_yycys5Error_pctF",
-            "moduleName": "IAMPASSiOS",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "delete_user",
-            "printedName": "delete_user(user:success:failure:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Error) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Error",
-                    "printedName": "Swift.Error",
-                    "usr": "s:s5ErrorP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10IAMPASSiOS15IPManagementAPIC11delete_user0F07success7failureySS_yycys5Error_pctF",
-            "mangledName": "$s10IAMPASSiOS15IPManagementAPIC11delete_user0F07success7failureySS_yycys5Error_pctF",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "AccessControl",
@@ -10123,21 +9480,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IAMPASSiOS.IPMobileDevice?",
+                "printedName": "IAMPASSiOS.IPUser?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "IPMobileDevice",
-                    "printedName": "IAMPASSiOS.IPMobileDevice",
-                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                    "name": "IPUser",
+                    "printedName": "IAMPASSiOS.IPUser",
+                    "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:10IAMPASSiOS15IPActiveSessionC6deviceAA14IPMobileDeviceCSgvp",
-            "mangledName": "$s10IAMPASSiOS15IPActiveSessionC6deviceAA14IPMobileDeviceCSgvp",
+            "usr": "s:10IAMPASSiOS15IPActiveSessionC6deviceAA6IPUserCSgvp",
+            "mangledName": "$s10IAMPASSiOS15IPActiveSessionC6deviceAA6IPUserCSgvp",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "HasInitialValue",
@@ -10155,21 +9512,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IAMPASSiOS.IPMobileDevice?",
+                    "printedName": "IAMPASSiOS.IPUser?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS15IPActiveSessionC6deviceAA14IPMobileDeviceCSgvg",
-                "mangledName": "$s10IAMPASSiOS15IPActiveSessionC6deviceAA14IPMobileDeviceCSgvg",
+                "usr": "s:10IAMPASSiOS15IPActiveSessionC6deviceAA6IPUserCSgvg",
+                "mangledName": "$s10IAMPASSiOS15IPActiveSessionC6deviceAA6IPUserCSgvg",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "get"
@@ -10187,21 +9544,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IAMPASSiOS.IPMobileDevice?",
+                    "printedName": "IAMPASSiOS.IPUser?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS15IPActiveSessionC6deviceAA14IPMobileDeviceCSgvs",
-                "mangledName": "$s10IAMPASSiOS15IPActiveSessionC6deviceAA14IPMobileDeviceCSgvs",
+                "usr": "s:10IAMPASSiOS15IPActiveSessionC6deviceAA6IPUserCSgvs",
+                "mangledName": "$s10IAMPASSiOS15IPActiveSessionC6deviceAA6IPUserCSgvs",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "set"
@@ -10218,8 +9575,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS15IPActiveSessionC6deviceAA14IPMobileDeviceCSgvM",
-                "mangledName": "$s10IAMPASSiOS15IPActiveSessionC6deviceAA14IPMobileDeviceCSgvM",
+                "usr": "s:10IAMPASSiOS15IPActiveSessionC6deviceAA6IPUserCSgvM",
+                "mangledName": "$s10IAMPASSiOS15IPActiveSessionC6deviceAA6IPUserCSgvM",
                 "moduleName": "IAMPASSiOS",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -13223,8 +12580,8 @@
           },
           {
             "kind": "Var",
-            "name": "Failed_Update_Device",
-            "printedName": "Failed_Update_Device",
+            "name": "Failed_Update_User",
+            "printedName": "Failed_Update_User",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -13254,8 +12611,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:10IAMPASSiOS7IPErrorO20Failed_Update_DeviceyA2CmF",
-            "mangledName": "$s10IAMPASSiOS7IPErrorO20Failed_Update_DeviceyA2CmF",
+            "usr": "s:10IAMPASSiOS7IPErrorO18Failed_Update_UseryA2CmF",
+            "mangledName": "$s10IAMPASSiOS7IPErrorO18Failed_Update_UseryA2CmF",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "RawDocComment"
@@ -14177,8 +13534,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "IPMobileDevice",
-        "printedName": "IPMobileDevice",
+        "name": "IPUser",
+        "printedName": "IPUser",
         "children": [
           {
             "kind": "Var",
@@ -14193,8 +13550,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:10IAMPASSiOS14IPMobileDeviceC17training_requiredSbvp",
-            "mangledName": "$s10IAMPASSiOS14IPMobileDeviceC17training_requiredSbvp",
+            "usr": "s:10IAMPASSiOS6IPUserC17training_requiredSbvp",
+            "mangledName": "$s10IAMPASSiOS6IPUserC17training_requiredSbvp",
             "moduleName": "IAMPASSiOS",
             "isOpen": true,
             "declAttributes": [
@@ -14215,8 +13572,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:10IAMPASSiOS14IPMobileDeviceC17training_requiredSbvg",
-                "mangledName": "$s10IAMPASSiOS14IPMobileDeviceC17training_requiredSbvg",
+                "usr": "s:10IAMPASSiOS6IPUserC17training_requiredSbvg",
+                "mangledName": "$s10IAMPASSiOS6IPUserC17training_requiredSbvg",
                 "moduleName": "IAMPASSiOS",
                 "isOpen": true,
                 "accessorKind": "get"
@@ -14253,7 +13610,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any, IAMPASSiOS.IPMobileDevice) -> ()",
+                "printedName": "(Any, IAMPASSiOS.IPUser) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14263,7 +13620,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any, IAMPASSiOS.IPMobileDevice)",
+                    "printedName": "(Any, IAMPASSiOS.IPUser)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14272,9 +13629,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ]
                   }
@@ -14312,8 +13669,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10IAMPASSiOS14IPMobileDeviceC08registerD010identifier17registration_link18notification_token7success7failureyyp_10Foundation3URLVSSyyp_ACtcyyp_s5Error_ptctFZ",
-            "mangledName": "$s10IAMPASSiOS14IPMobileDeviceC08registerD010identifier17registration_link18notification_token7success7failureyyp_10Foundation3URLVSSyyp_ACtcyyp_s5Error_ptctFZ",
+            "usr": "s:10IAMPASSiOS6IPUserC14registerDevice10identifier17registration_link18notification_token7success7failureyyp_10Foundation3URLVSSyyp_ACtcyyp_s5Error_ptctFZ",
+            "mangledName": "$s10IAMPASSiOS6IPUserC14registerDevice10identifier17registration_link18notification_token7success7failureyyp_10Foundation3URLVSSyyp_ACtcyyp_s5Error_ptctFZ",
             "moduleName": "IAMPASSiOS",
             "static": true,
             "declAttributes": [
@@ -14387,8 +13744,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10IAMPASSiOS14IPMobileDeviceC10unregister10identifier7success7failureyyp_yypcyyp_s5Error_ptctF",
-            "mangledName": "$s10IAMPASSiOS14IPMobileDeviceC10unregister10identifier7success7failureyyp_yypcyyp_s5Error_ptctF",
+            "usr": "s:10IAMPASSiOS6IPUserC10unregister10identifier7success7failureyyp_yypcyyp_s5Error_ptctF",
+            "mangledName": "$s10IAMPASSiOS6IPUserC10unregister10identifier7success7failureyyp_yypcyyp_s5Error_ptctF",
             "moduleName": "IAMPASSiOS",
             "isOpen": true,
             "declAttributes": [
@@ -14421,7 +13778,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Any, IAMPASSiOS.IPMobileDevice) -> ()",
+                "printedName": "(Any, IAMPASSiOS.IPUser) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -14431,7 +13788,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Any, IAMPASSiOS.IPMobileDevice)",
+                    "printedName": "(Any, IAMPASSiOS.IPUser)",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -14440,9 +13797,9 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "IPMobileDevice",
-                        "printedName": "IAMPASSiOS.IPMobileDevice",
-                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                        "name": "IPUser",
+                        "printedName": "IAMPASSiOS.IPUser",
+                        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
                       }
                     ]
                   }
@@ -14480,8 +13837,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10IAMPASSiOS14IPMobileDeviceC6update10identifier18notification_token7success7failureyyp_SSyyp_ACtcyyp_s5Error_ptctF",
-            "mangledName": "$s10IAMPASSiOS14IPMobileDeviceC6update10identifier18notification_token7success7failureyyp_SSyyp_ACtcyyp_s5Error_ptctF",
+            "usr": "s:10IAMPASSiOS6IPUserC6update10identifier18notification_token7success7failureyyp_SSyyp_ACtcyyp_s5Error_ptctF",
+            "mangledName": "$s10IAMPASSiOS6IPUserC6update10identifier18notification_token7success7failureyyp_SSyyp_ACtcyyp_s5Error_ptctF",
             "moduleName": "IAMPASSiOS",
             "isOpen": true,
             "declAttributes": [
@@ -14502,8 +13859,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10IAMPASSiOS14IPMobileDeviceC16trainingCompleteyyF",
-            "mangledName": "$s10IAMPASSiOS14IPMobileDeviceC16trainingCompleteyyF",
+            "usr": "s:10IAMPASSiOS6IPUserC16trainingCompleteyyF",
+            "mangledName": "$s10IAMPASSiOS6IPUserC16trainingCompleteyyF",
             "moduleName": "IAMPASSiOS",
             "declAttributes": [
               "AccessControl",
@@ -14518,14 +13875,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "IPMobileDevice",
-                "printedName": "IAMPASSiOS.IPMobileDevice",
-                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                "name": "IPUser",
+                "printedName": "IAMPASSiOS.IPUser",
+                "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice(im)init",
-            "mangledName": "$s10IAMPASSiOS14IPMobileDeviceCACycfc",
+            "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser(im)init",
+            "mangledName": "$s10IAMPASSiOS6IPUserCACycfc",
             "moduleName": "IAMPASSiOS",
             "overriding": true,
             "implicit": true,
@@ -14544,9 +13901,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "IPMobileDevice",
-                "printedName": "IAMPASSiOS.IPMobileDevice",
-                "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice"
+                "name": "IPUser",
+                "printedName": "IAMPASSiOS.IPUser",
+                "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser"
               },
               {
                 "kind": "TypeNominal",
@@ -14556,8 +13913,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10IAMPASSiOS14IPMobileDeviceC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10IAMPASSiOS14IPMobileDeviceC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:10IAMPASSiOS6IPUserC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10IAMPASSiOS6IPUserC4fromACs7Decoder_p_tKcfc",
             "moduleName": "IAMPASSiOS",
             "implicit": true,
             "declAttributes": [
@@ -14584,8 +13941,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10IAMPASSiOS14IPMobileDeviceC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10IAMPASSiOS14IPMobileDeviceC6encode2toys7Encoder_p_tKF",
+            "usr": "s:10IAMPASSiOS6IPUserC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10IAMPASSiOS6IPUserC6encode2toys7Encoder_p_tKF",
             "moduleName": "IAMPASSiOS",
             "implicit": true,
             "isOpen": true,
@@ -14594,8 +13951,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@IAMPASSiOS@objc(cs)IPMobileDevice",
-        "mangledName": "$s10IAMPASSiOS14IPMobileDeviceC",
+        "usr": "c:@M@IAMPASSiOS@objc(cs)IPUser",
+        "mangledName": "$s10IAMPASSiOS6IPUserC",
         "moduleName": "IAMPASSiOS",
         "isOpen": true,
         "declAttributes": [
@@ -15957,56 +15314,56 @@
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPAuthenticationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1552,
+      "offset": 1544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPAuthenticationViewController.swift",
       "kind": "Dictionary",
-      "offset": 1812,
+      "offset": 1804,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPAuthenticationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2603,
+      "offset": 2595,
       "length": 28,
       "value": "\"IPAcceptanceViewController\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPAuthenticationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3180,
+      "offset": 3172,
       "length": 20,
       "value": "\"IPOSViewController\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPAuthenticationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3751,
+      "offset": 3743,
       "length": 24,
       "value": "\"IPFacialViewController\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPAuthenticationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4344,
+      "offset": 4336,
       "length": 27,
       "value": "\"IPProximityViewController\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPAuthenticationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4892,
+      "offset": 4884,
       "length": 24,
       "value": "\"IPStatusViewController\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPAuthenticationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5664,
+      "offset": 5656,
       "length": 22,
       "value": "\"IPBusyViewController\""
     },
@@ -16034,35 +15391,35 @@
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPTrainingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2152,
+      "offset": 2136,
       "length": 24,
       "value": "\"IPFacialViewController\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPTrainingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2737,
+      "offset": 2721,
       "length": 34,
       "value": "\"IPTrainingRequiredViewController\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPTrainingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3278,
+      "offset": 3262,
       "length": 24,
       "value": "\"IPStatusViewController\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPTrainingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3795,
+      "offset": 3779,
       "length": 22,
       "value": "\"IPBusyViewController\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/Views\/IPTrainingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4180,
+      "offset": 4154,
       "length": 5,
       "value": "false"
     },
@@ -16265,14 +15622,14 @@
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPLog.swift",
       "kind": "StringLiteral",
-      "offset": 1037,
+      "offset": 1035,
       "length": 16,
       "value": "\"IAMPASS-Device\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPLog.swift",
       "kind": "StringLiteral",
-      "offset": 1119,
+      "offset": 1117,
       "length": 16,
       "value": "\"IAMPASS-System\""
     },
@@ -16307,98 +15664,98 @@
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2018,
+      "offset": 2517,
       "length": 15,
       "value": "\"authenticated\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2064,
+      "offset": 2563,
       "length": 16,
       "value": "\"session_status\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2103,
+      "offset": 2602,
       "length": 8,
       "value": "\"reason\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2138,
+      "offset": 2637,
       "length": 12,
       "value": "\"status_url\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2180,
+      "offset": 2679,
       "length": 15,
       "value": "\"session_token\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2226,
+      "offset": 2725,
       "length": 16,
       "value": "\"session_secret\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2269,
+      "offset": 2768,
       "length": 12,
       "value": "\"logout_url\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2018,
+      "offset": 2517,
       "length": 15,
       "value": "\"authenticated\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2064,
+      "offset": 2563,
       "length": 16,
       "value": "\"session_status\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2103,
+      "offset": 2602,
       "length": 8,
       "value": "\"reason\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2138,
+      "offset": 2637,
       "length": 12,
       "value": "\"status_url\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2180,
+      "offset": 2679,
       "length": 15,
       "value": "\"session_token\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2226,
+      "offset": 2725,
       "length": 16,
       "value": "\"session_secret\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPAuthenticationAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2269,
+      "offset": 2768,
       "length": 12,
       "value": "\"logout_url\""
     },
@@ -16445,65 +15802,58 @@
       "value": "\"https:\/\/iam-api.com\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPManagementAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 865,
-      "length": 25,
-      "value": "\"https:\/\/dev.iam-api.com\""
-    },
-    {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPActiveSession.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1088,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPActiveSession.swift",
       "kind": "StringLiteral",
-      "offset": 1139,
+      "offset": 1123,
       "length": 16,
       "value": "\"session_status\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPActiveSession.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1158,
       "length": 12,
       "value": "\"session_id\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPActiveSession.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1197,
       "length": 12,
       "value": "\"logout_url\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPActiveSession.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1088,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPActiveSession.swift",
       "kind": "StringLiteral",
-      "offset": 1139,
+      "offset": 1123,
       "length": 16,
       "value": "\"session_status\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPActiveSession.swift",
       "kind": "StringLiteral",
-      "offset": 1174,
+      "offset": 1158,
       "length": 12,
       "value": "\"session_id\""
     },
     {
       "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPActiveSession.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1197,
       "length": 12,
       "value": "\"logout_url\""
     },
@@ -16585,359 +15935,359 @@
       "value": "\"IAMPASSiOS.ProximityDetector\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 646,
-      "length": 14,
-      "value": "\"IAMPASSiOS.IPMobileDevice\""
+      "offset": 606,
+      "length": 6,
+      "value": "\"IAMPASSiOS.IPUser\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30099,
+      "offset": 30534,
       "length": 10,
       "value": "\"COMPLETE\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30176,
+      "offset": 30611,
       "length": 15,
       "value": "\"INVALID_TOKEN\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30258,
+      "offset": 30693,
       "length": 9,
       "value": "\"EXPIRED\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30349,
+      "offset": 30784,
       "length": 18,
       "value": "\"DUPLICATE_DEVICE\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30460,
+      "offset": 30895,
       "length": 24,
       "value": "\"EXISTING_MOBILE_DEVICE\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30531,
+      "offset": 30966,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30099,
+      "offset": 30534,
       "length": 10,
       "value": "\"COMPLETE\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30176,
+      "offset": 30611,
       "length": 15,
       "value": "\"INVALID_TOKEN\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30258,
+      "offset": 30693,
       "length": 9,
       "value": "\"EXPIRED\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30349,
+      "offset": 30784,
       "length": 18,
       "value": "\"DUPLICATE_DEVICE\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30460,
+      "offset": 30895,
       "length": 24,
       "value": "\"EXISTING_MOBILE_DEVICE\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30531,
+      "offset": 30966,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30891,
+      "offset": 31318,
       "length": 8,
       "value": "\"device\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30922,
+      "offset": 31349,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30891,
+      "offset": 31318,
       "length": 8,
       "value": "\"device\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 30922,
+      "offset": 31349,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 31635,
+      "offset": 32046,
       "length": 8,
       "value": "\"reason\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 31666,
+      "offset": 32077,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 31697,
+      "offset": 32108,
       "length": 9,
       "value": "\"service\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 31635,
+      "offset": 32046,
       "length": 8,
       "value": "\"reason\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 31666,
+      "offset": 32077,
       "length": 8,
       "value": "\"status\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 31697,
+      "offset": 32108,
       "length": 9,
       "value": "\"service\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 32619,
+      "offset": 33022,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 32659,
+      "offset": 33062,
       "length": 15,
       "value": "\"device_secret\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 32619,
+      "offset": 33022,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 32659,
+      "offset": 33062,
       "length": 15,
       "value": "\"device_secret\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 33303,
+      "offset": 33706,
       "length": 12,
       "value": "\"service_id\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 33345,
+      "offset": 33748,
       "length": 16,
       "value": "\"service_secret\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 33389,
+      "offset": 33792,
       "length": 14,
       "value": "\"service_urls\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 33303,
+      "offset": 33706,
       "length": 12,
       "value": "\"service_id\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 33345,
+      "offset": 33748,
       "length": 16,
       "value": "\"service_secret\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 33389,
+      "offset": 33792,
       "length": 14,
       "value": "\"service_urls\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34483,
+      "offset": 34886,
       "length": 17,
       "value": "\"active_sessions\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34536,
+      "offset": 34939,
       "length": 22,
       "value": "\"device_configuration\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34591,
+      "offset": 34994,
       "length": 19,
       "value": "\"device_unregister\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34642,
+      "offset": 35045,
       "length": 18,
       "value": "\"pending_requests\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34689,
+      "offset": 35092,
       "length": 15,
       "value": "\"training_data\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34483,
+      "offset": 34886,
       "length": 17,
       "value": "\"active_sessions\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34536,
+      "offset": 34939,
       "length": 22,
       "value": "\"device_configuration\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34591,
+      "offset": 34994,
       "length": 19,
       "value": "\"device_unregister\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34642,
+      "offset": 35045,
       "length": 18,
       "value": "\"pending_requests\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 34689,
+      "offset": 35092,
       "length": 15,
       "value": "\"training_data\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 35418,
+      "offset": 35821,
       "length": 12,
       "value": "\"num_images\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 35418,
+      "offset": 35821,
       "length": 12,
       "value": "\"num_images\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 35705,
+      "offset": 36108,
       "length": 16,
       "value": "\"application_id\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 35753,
+      "offset": 36156,
       "length": 18,
       "value": "\"application_name\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 35794,
+      "offset": 36197,
       "length": 9,
       "value": "\"user_id\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 35705,
+      "offset": 36108,
       "length": 16,
       "value": "\"application_id\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 35753,
+      "offset": 36156,
       "length": 18,
       "value": "\"application_name\""
     },
     {
-      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPMobileDevice.swift",
+      "filePath": "\/Users\/jasonmullings1\/IAMPASS\/IAMPASS-API\/IAMPASS-ios\/IAMPASS-ios\/IAMPASS-ios\/IPUser.swift",
       "kind": "StringLiteral",
-      "offset": 35794,
+      "offset": 36197,
       "length": 9,
       "value": "\"user_id\""
     },

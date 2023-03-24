@@ -18,7 +18,7 @@ import os.log
 import os
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class IPAuthenticationViewController : UIKit.UIViewController, IAMPASSiOS.IPAcceptanceViewControllerDelegate, IAMPASSiOS.IPOSViewControllerDelegate, IAMPASSiOS.IPFacialViewControllerDelegate, IAMPASSiOS.IPProximityViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) public var authenticationRequest: IAMPASSiOS.IPAuthenticationRequest?
-  @_Concurrency.MainActor(unsafe) public var mobileDevice: IAMPASSiOS.IPMobileDevice?
+  @_Concurrency.MainActor(unsafe) public var mobileDevice: IAMPASSiOS.IPUser?
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var acceptanceBundleIdentifier: Swift.String
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var acceptanceNibName: Swift.String
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var osBundleIdentifier: Swift.String
@@ -33,7 +33,7 @@ import os
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var authenticatingNibName: Swift.String
   @_Concurrency.MainActor(unsafe) public var success: ((_ sender: IAMPASSiOS.IPAuthenticationViewController) -> Swift.Void)?
   @_Concurrency.MainActor(unsafe) public var failure: ((_ sender: IAMPASSiOS.IPAuthenticationViewController, _ error: Swift.Error?) -> Swift.Void)?
-  @_Concurrency.MainActor(unsafe) public static func create(request: IAMPASSiOS.IPAuthenticationRequest, device: IAMPASSiOS.IPMobileDevice, success: @escaping (_ sender: IAMPASSiOS.IPAuthenticationViewController) -> Swift.Void, failure: @escaping (_ sender: IAMPASSiOS.IPAuthenticationViewController, _ error: Swift.Error?) -> Swift.Void) -> IAMPASSiOS.IPAuthenticationViewController?
+  @_Concurrency.MainActor(unsafe) public static func create(request: IAMPASSiOS.IPAuthenticationRequest, device: IAMPASSiOS.IPUser, success: @escaping (_ sender: IAMPASSiOS.IPAuthenticationViewController) -> Swift.Void, failure: @escaping (_ sender: IAMPASSiOS.IPAuthenticationViewController, _ error: Swift.Error?) -> Swift.Void) -> IAMPASSiOS.IPAuthenticationViewController?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) open func didAuthenticate()
@@ -68,8 +68,8 @@ import os
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class IPTrainingViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) public var success: ((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice) -> Swift.Void)?
-  @_Concurrency.MainActor(unsafe) public var failure: ((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPMobileDevice, Swift.Error?) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) public var success: ((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) public var failure: ((IAMPASSiOS.IPTrainingViewController, Any?, IAMPASSiOS.IPUser, Swift.Error?) -> Swift.Void)?
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var facialBundleIdentifier: Swift.String
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var facialNibName: Swift.String
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var instructionsBundleIdentifier: Swift.String
@@ -78,9 +78,9 @@ import os
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var statusNibName: Swift.String
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var busyBundleIdentifier: Swift.String
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var busyNibName: Swift.String
-  @_Concurrency.MainActor(unsafe) public var device: IAMPASSiOS.IPMobileDevice?
+  @_Concurrency.MainActor(unsafe) public var user: IAMPASSiOS.IPUser?
   @_Concurrency.MainActor(unsafe) public var identifier: Any?
-  @_Concurrency.MainActor(unsafe) public static func create(device: IAMPASSiOS.IPMobileDevice, identifier: Any, success: @escaping (_ sender: IAMPASSiOS.IPTrainingViewController, _ identifier: Any?, _ device: IAMPASSiOS.IPMobileDevice) -> Swift.Void, failure: @escaping (_ sender: IAMPASSiOS.IPTrainingViewController, _ identifier: Any?, _ device: IAMPASSiOS.IPMobileDevice, _ error: Swift.Error?) -> Swift.Void) -> IAMPASSiOS.IPTrainingViewController?
+  @_Concurrency.MainActor(unsafe) public static func create(user: IAMPASSiOS.IPUser, identifier: Any, success: @escaping (_ sender: IAMPASSiOS.IPTrainingViewController, _ identifier: Any?, _ user: IAMPASSiOS.IPUser) -> Swift.Void, failure: @escaping (_ sender: IAMPASSiOS.IPTrainingViewController, _ identifier: Any?, _ user: IAMPASSiOS.IPUser, _ error: Swift.Error?) -> Swift.Void) -> IAMPASSiOS.IPTrainingViewController?
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) open func trainingComplete()
@@ -119,20 +119,23 @@ open class IPSessionStatus : Swift.Decodable {
   required public init(from decoder: Swift.Decoder) throws
   @objc deinit
 }
-public protocol IPNotificationHandlerDelegate {
-  func presentAuthenticationUI(request: IAMPASSiOS.IPAuthenticationRequest, device: IAMPASSiOS.IPMobileDevice)
-  func sessionStatusChanged(status: IAMPASSiOS.IPSessionStatus)
-}
 public class IPNotificationHandler {
-  public struct NotificationHandlerResult {
-    public let suggestedCompletionResult: UIKit.UIBackgroundFetchResult
-    public let ipNotification: Swift.Bool
-  }
-  public init(delegate: IAMPASSiOS.IPNotificationHandlerDelegate?)
-  public func processNotification(userInfo: [Swift.AnyHashable : Any], registeredDevices: [IAMPASSiOS.IPMobileDevice]) -> IAMPASSiOS.IPNotificationHandler.NotificationHandlerResult
+  public init()
+  public func processNotification(userInfo: [Swift.AnyHashable : Any], registeredUsers: [IAMPASSiOS.IPUser], onAuthenticationRequest: @escaping (_ request: IAMPASSiOS.IPAuthenticationRequest, _ user: IAMPASSiOS.IPUser) -> Swift.Void, onStatusChanged: @escaping (_ status: IAMPASSiOS.IPSessionStatus) -> Swift.Void, onError: @escaping (_ error: Swift.Error?) -> Swift.Void, onIgnore: @escaping () -> Swift.Void, defaultHandler: @escaping (_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Void)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class IPAuthenticationSession : Swift.Decodable, Swift.Encodable {
+  public var status: IAMPASSiOS.SessionStatus
+  final public let reason: Swift.String?
+  public var isInProgress: Swift.Bool {
+    get
+  }
+  public var didFail: Swift.Bool {
+    get
+  }
+  public var isAuthenticated: Swift.Bool {
+    get
+  }
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
   public func refreshStatus(success: @escaping (_ status: IAMPASSiOS.SessionStatus) -> Swift.Void, failure: @escaping (_ error: Swift.Error?) -> Swift.Void)
@@ -144,16 +147,6 @@ public class IPAuthenticateUserResponse : Swift.Decodable {
   final public let required_data: IAMPASSiOS.IPAuthenticationRequest?
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
-}
-public class IPStartAuthenticationParams : Swift.Codable {
-  public var user_id: Swift.String
-  public var methods: [IAMPASSiOS.IPAuthenticationMethod]?
-  public var duration_seconds: Swift.Int?
-  public var device: IAMPASSiOS.IPMobileDevice
-  public init(client_id: Swift.String, device: IAMPASSiOS.IPMobileDevice, methods: [IAMPASSiOS.IPAuthenticationMethod]? = nil, duration_seconds: Swift.Int? = nil)
-  required public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
-  @objc deinit
 }
 public enum IPAuthenticationMethod : Swift.CustomStringConvertible {
   case acceptance
@@ -171,7 +164,6 @@ public enum IPAuthenticationMethod : Swift.CustomStringConvertible {
 public class IPAuthenticationAPI {
   public init(application_id: Swift.String, application_secret: Swift.String, iampass_configuration: IAMPASSiOS.IAMPASSConfiguration = IAMPASSConfiguration.DEFAULT_IAMPASS_CONFIGURATION)
   public func authenticateUser(client_id: Swift.String, methods: Swift.Array<IAMPASSiOS.IPAuthenticationMethod>, success: @escaping (_ client_id: Swift.String, _ session: IAMPASSiOS.IPAuthenticationSession) -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
-  public func startAuthentication(params: IAMPASSiOS.IPStartAuthenticationParams, success: @escaping (_ client_id: Swift.String, _ session: IAMPASSiOS.IPAuthenticateUserResponse) -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
   @objc deinit
 }
 public enum OS_Auth_Result {
@@ -212,16 +204,13 @@ extension IAMPASSiOS.IPCaptureFaceViewController : AVFoundation.AVCaptureVideoDa
 public struct IAMPASSConfiguration {
   public let server_url: Foundation.URL
   public static let DEFAULT_IAMPASS_CONFIGURATION: IAMPASSiOS.IAMPASSConfiguration
-  public static let DEVELOPMENT_IAMPASS_CONFIGURATION: IAMPASSiOS.IAMPASSConfiguration
   public init(server_url: Foundation.URL)
 }
 public class IPManagementAPI {
   public init(application_id: Swift.String, application_secret: Swift.String, iampass_configuration: IAMPASSiOS.IAMPASSConfiguration = IAMPASSConfiguration.DEFAULT_IAMPASS_CONFIGURATION)
-  public func create_user_and_register_device(user: Swift.String, notification_token: Swift.String, success: @escaping IAMPASSiOS.IPMobileDevice.device_success_proc, failure: @escaping IAMPASSiOS.IPMobileDevice.device_failure_proc)
+  public func create_user_and_register_device(user: Swift.String, notification_token: Swift.String, success: @escaping IAMPASSiOS.IPUser.device_success_proc, failure: @escaping IAMPASSiOS.IPUser.device_failure_proc)
   public func add_users(users: [Swift.String], success: @escaping (_ added: [Swift.String], _ existing: [Swift.String]) -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
   public func add_user(user: Swift.String, success: @escaping () -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
-  public func delete_users(users: [Swift.String], success: @escaping () -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
-  public func delete_user(user: Swift.String, success: @escaping () -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
   public func get_registration_link(user_id: Swift.String, display_name: Swift.String?, success: @escaping (_ registration_link: Foundation.URL) -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
   public func has_registered_mobile_device(user_id: Swift.String, success: @escaping (_ has_registered_device: Swift.Bool) -> Swift.Void, failure: @escaping (_ error: Swift.Error) -> Swift.Void)
   @objc deinit
@@ -230,7 +219,7 @@ public class IPActiveSession : Swift.Decodable {
   final public let created: Foundation.Date
   final public let status: IAMPASSiOS.SessionStatus
   final public let id: Swift.String
-  public var device: IAMPASSiOS.IPMobileDevice?
+  public var device: IAMPASSiOS.IPUser?
   required public init(from decoder: Swift.Decoder) throws
   public func close(success: @escaping () -> Swift.Void, failure: @escaping (_ error: Swift.Error?) -> Swift.Void)
   @objc deinit
@@ -296,7 +285,7 @@ public enum IPError : Foundation.LocalizedError {
   case Failed_Register_Device
   case Failed_Unregister_Device
   case Device_Not_Found
-  case Failed_Update_Device
+  case Failed_Update_User
   case User_Exists
   case Failed_Add_User
   case Failed_Delete_User
@@ -323,15 +312,15 @@ public enum IPError : Foundation.LocalizedError {
     get
   }
 }
-@_hasMissingDesignatedInitializers @objc open class IPMobileDevice : ObjectiveC.NSObject, Swift.Codable {
+@_hasMissingDesignatedInitializers @objc open class IPUser : ObjectiveC.NSObject, Swift.Codable {
   open var training_required: Swift.Bool {
     get
   }
-  public typealias device_success_proc = (_ identifier: Any, _ device: IAMPASSiOS.IPMobileDevice) -> Swift.Void
+  public typealias device_success_proc = (_ identifier: Any, _ device: IAMPASSiOS.IPUser) -> Swift.Void
   public typealias device_failure_proc = (_ identifier: Any, _ error: Swift.Error) -> Swift.Void
-  public static func registerDevice(identifier: Any, registration_link: Foundation.URL, notification_token: Swift.String, success: @escaping IAMPASSiOS.IPMobileDevice.device_success_proc, failure: @escaping IAMPASSiOS.IPMobileDevice.device_failure_proc)
+  public static func registerDevice(identifier: Any, registration_link: Foundation.URL, notification_token: Swift.String, success: @escaping IAMPASSiOS.IPUser.device_success_proc, failure: @escaping IAMPASSiOS.IPUser.device_failure_proc)
   open func unregister(identifier: Any, success: @escaping (_ identifier: Any) -> Swift.Void, failure: @escaping (_ identifier: Any, _ error: Swift.Error) -> Swift.Void)
-  open func update(identifier: Any, notification_token: Swift.String, success: @escaping (_ identifier: Any, _ device: IAMPASSiOS.IPMobileDevice) -> Swift.Void, failure: @escaping (_ identifier: Any, _ error: Swift.Error) -> Swift.Void)
+  open func update(identifier: Any, notification_token: Swift.String, success: @escaping (_ identifier: Any, _ user: IAMPASSiOS.IPUser) -> Swift.Void, failure: @escaping (_ identifier: Any, _ error: Swift.Error) -> Swift.Void)
   public func trainingComplete()
   @objc deinit
   open func encode(to encoder: Swift.Encoder) throws

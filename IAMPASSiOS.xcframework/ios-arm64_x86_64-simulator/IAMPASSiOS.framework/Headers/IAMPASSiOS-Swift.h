@@ -467,17 +467,6 @@ SWIFT_CLASS("_TtC10IAMPASSiOS22IPFacialViewController")
 
 
 
-/// Class the represents a mobile device registered with IAMPASS.
-/// Instances of this class contain the information required to communicate with IAMPASS on behalf the of the device user.
-/// The client applicaton is responsible for storing the ACMobileDevice data for the user accounts registered with their app.
-/// ACMobileDevice data can be serialized as JSON and store/read from a secure location, for example the device key chain.
-SWIFT_CLASS("_TtC10IAMPASSiOS14IPMobileDevice")
-@interface IPMobileDevice : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
 /// View controller for performing OS authentication.
 /// ACOSViewControllers are created by <code>IPAuthenticationViewController</code>.
 /// A custom UI can be provided by creating a nib file containing an <code>IPOSViewController</code> and set the values of <code>IPAuthenticationViewController.osBundleIdentifier</code> and <code>IPAuthenticationViewController.osNibName</code>.
@@ -580,6 +569,17 @@ SWIFT_CLASS("_TtC10IAMPASSiOS24IPTrainingViewController")
 - (void)didCancelFaceDetection;
 /// :nodoc:
 - (void)didFailDetectFacesWithError:(NSError * _Nullable)error;
+@end
+
+
+/// Class the represents an IAMPASS User.
+/// Instances of this class contain the information required to communicate with IAMPASS on behalf the of the device user.
+/// The client applicaton is responsible for storing the IPUser data for the user accounts registered with their app.
+/// IPUser data can be serialized as JSON and store/read from a secure location, for example the device key chain.
+SWIFT_CLASS("_TtC10IAMPASSiOS6IPUser")
+@interface IPUser : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class CBPeripheralManager;
@@ -1071,17 +1071,6 @@ SWIFT_CLASS("_TtC10IAMPASSiOS22IPFacialViewController")
 
 
 
-/// Class the represents a mobile device registered with IAMPASS.
-/// Instances of this class contain the information required to communicate with IAMPASS on behalf the of the device user.
-/// The client applicaton is responsible for storing the ACMobileDevice data for the user accounts registered with their app.
-/// ACMobileDevice data can be serialized as JSON and store/read from a secure location, for example the device key chain.
-SWIFT_CLASS("_TtC10IAMPASSiOS14IPMobileDevice")
-@interface IPMobileDevice : NSObject
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
 /// View controller for performing OS authentication.
 /// ACOSViewControllers are created by <code>IPAuthenticationViewController</code>.
 /// A custom UI can be provided by creating a nib file containing an <code>IPOSViewController</code> and set the values of <code>IPAuthenticationViewController.osBundleIdentifier</code> and <code>IPAuthenticationViewController.osNibName</code>.
@@ -1184,6 +1173,17 @@ SWIFT_CLASS("_TtC10IAMPASSiOS24IPTrainingViewController")
 - (void)didCancelFaceDetection;
 /// :nodoc:
 - (void)didFailDetectFacesWithError:(NSError * _Nullable)error;
+@end
+
+
+/// Class the represents an IAMPASS User.
+/// Instances of this class contain the information required to communicate with IAMPASS on behalf the of the device user.
+/// The client applicaton is responsible for storing the IPUser data for the user accounts registered with their app.
+/// IPUser data can be serialized as JSON and store/read from a secure location, for example the device key chain.
+SWIFT_CLASS("_TtC10IAMPASSiOS6IPUser")
+@interface IPUser : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 @class CBPeripheralManager;
